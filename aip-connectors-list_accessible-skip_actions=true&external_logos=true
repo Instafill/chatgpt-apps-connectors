@@ -1,1 +1,3825 @@
-
+{
+    "connectors": [
+        {
+            "id": "connector_691f749cd9088191befeb1d543c37d98",
+            "created_at": "2025-11-20T20:05:50.682521Z",
+            "connector_type": "MCP",
+            "name": "Egnyte",
+            "description": "Search, access and get insights on your Egnyte content",
+            "model_description": null,
+            "service": "https://mcp-server.egnyte.com",
+            "base_url": "https://mcp-server.egnyte.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://mcp-oauth.egnyte.com/domain_picker.html",
+                    "token_url": "https://mcp-oauth.egnyte.com/oauth2/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": true,
+                "reason_if_not_retrievable": null
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "egnyte"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_691f749cd9088191befeb1d543c37d98/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_68e004f14af881919eb50893d3d9f523",
+            "created_at": "2025-10-03T17:16:33.292904Z",
+            "connector_type": "MCP",
+            "name": "Expedia",
+            "description": "Discover and compare hotels, rooms, and flights using dynamic data to book your trip",
+            "model_description": null,
+            "service": "https://www.expedia.com",
+            "base_url": "https://www.expedia.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zbckGjbHAjDtfDnrX6FVMkK6__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "expedia"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/hotel.png",
+                "call_to_action": "Discover and compare hotels or flights",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_68e004f14af881919eb50893d3d9f523/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_6923772ef3d48191b6b18899af1cb037",
+            "created_at": "2025-11-23T21:05:52.496858Z",
+            "connector_type": "MCP",
+            "name": "Target",
+            "description": "Shop for favorites, essentials, and deals with same-day pickup or shipping for effortless shopping",
+            "model_description": null,
+            "service": "https://rmcp.target.com",
+            "base_url": "https://rmcp.target.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zbckGjbHAjDtfDnrX6FVMkK6__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "target.com"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/shopping.png",
+                "call_to_action": "Shop for home and groceries",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_6923772ef3d48191b6b18899af1cb037/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_68e01e8c1c2081918b4567a0b959d3ff",
+            "created_at": "2025-10-03T19:05:48.110097Z",
+            "connector_type": "MCP",
+            "name": "Coursera",
+            "description": "Find the best learning content to start, switch, or advance your career",
+            "model_description": null,
+            "service": "https://www.coursera.org",
+            "base_url": "https://www.coursera.org/chatgpt-widgets/mcp",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zbckGjbHAjDtfDnrX6FVMkK6__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "coursera"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/coursera.png",
+                "call_to_action": "Learn in video",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_68e01e8c1c2081918b4567a0b959d3ff/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_690aabb71bf481918b8d5b614ed3fd4c",
+            "created_at": "2025-11-05T01:43:19.109280Z",
+            "connector_type": "MCP",
+            "name": "Monday.com",
+            "description": "Manage projects, gain insights, and automate workflows within monday.com",
+            "model_description": null,
+            "service": "https://mcp.monday.com",
+            "base_url": "https://mcp.monday.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://mcp.monday.com/authorize",
+                    "token_url": "https://mcp.monday.com/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "monday.com"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_690aabb71bf481918b8d5b614ed3fd4c/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_947e0d954944416db111db556030eea6",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Google Calendar",
+            "description": "Look up events and availability",
+            "model_description": null,
+            "service": "google",
+            "base_url": "https://www.googleapis.com/calendar/v3",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://accounts.google.com/o/oauth2/v2/auth",
+                    "token_url": "https://oauth2.googleapis.com/token",
+                    "custom_redirect_url_params": {
+                        "access_type": "offline",
+                        "prompt": "consent"
+                    },
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://www.google.com/",
+                "privacy_policy": "https://policies.google.com/privacy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action does not have an id parameter"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": [
+                "gcalendar",
+                "events",
+                "scheduling"
+            ],
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_947e0d954944416db111db556030eea6/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_2fc94c70cbb74b7caa6d07bf7231202e",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Box",
+            "description": "Search and reference files",
+            "model_description": null,
+            "service": "box",
+            "base_url": "https://api.box.com/2.0",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://account.box.com/api/oauth2/authorize",
+                    "token_url": "https://api.box.com/oauth2/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://www.box.com/home",
+                "privacy_policy": "https://www.box.com/legal/privacypolicy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action does not have an id parameter"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_2fc94c70cbb74b7caa6d07bf7231202e/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_0f9c9d4592e54d0a9a12b3f44a1e2010",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Slack",
+            "description": "Look up chats and messages",
+            "model_description": null,
+            "service": "slack",
+            "base_url": "https://slack.com/api",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://slack.com/oauth/v2/authorize",
+                    "token_url": "https://slack.com/api/oauth.v2.access",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": false,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://slack.com/",
+                "privacy_policy": "https://slack.com/privacy-policy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action does not have an id parameter"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_0f9c9d4592e54d0a9a12b3f44a1e2010/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_68f1abff1b688191b9309a31c9b4a713",
+            "created_at": "2025-10-17T02:37:51.107156Z",
+            "connector_type": "MCP",
+            "name": "Peloton",
+            "description": "Discover, plan and personalize your Peloton workouts",
+            "model_description": null,
+            "service": "https://mcp.onepeloton.com",
+            "base_url": "https://mcp.onepeloton.com",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                },
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://mcp.onepeloton.com/oauth/authorize",
+                    "token_url": "https://mcp.onepeloton.com/oauth/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zdbKVCOctLwHRMCKcUjn0qtY__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action does not have an id parameter"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "peloton"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/peloton.png",
+                "call_to_action": "Find a fitness class",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": [
+                "HEALTH"
+            ],
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_68f1abff1b688191b9309a31c9b4a713/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_68de829bf7648191acd70a907364c67c",
+            "created_at": "2025-10-02T13:48:11.966572Z",
+            "connector_type": "MCP",
+            "name": "Spotify",
+            "description": "Search for music and podcasts, or turn your ideas into playlists",
+            "model_description": null,
+            "service": "https://mcp-gateway-external-pilot.spotify.net",
+            "base_url": "https://mcp-gateway-external-pilot.spotify.net/chatgpt-mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://accounts.spotify.com/authorize",
+                    "token_url": "https://accounts.spotify.com/api/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zbckGjbHAjDtfDnrX6FVMkK6__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "spotify"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/spotify.png",
+                "call_to_action": "Make a playlist",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_68de829bf7648191acd70a907364c67c/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_68f1afc5a6008191a701eaaab428816c",
+            "created_at": "2025-10-17T02:53:57.667665Z",
+            "connector_type": "MCP",
+            "name": "AllTrails",
+            "description": "Find your next hike with information, photos, ratings and reviews",
+            "model_description": null,
+            "service": "https://www.alltrails.com",
+            "base_url": "https://www.alltrails.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zdbKVCOctLwHRMCKcUjn0qtY__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "alltrails"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/alltrails.png",
+                "call_to_action": "Find a hiking trail",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_68f1afc5a6008191a701eaaab428816c/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_68df038e0ba48191908c8434991bbac2",
+            "created_at": "2025-10-02T22:58:22.045927Z",
+            "connector_type": "MCP",
+            "name": "Figma",
+            "description": "Create flow charts, diagrams, Gantt charts, and more in FigJam",
+            "model_description": null,
+            "service": "https://mcp.figma.com",
+            "base_url": "https://mcp.figma.com/mcp?s=1e1c3e0c01999af642c8deecee830e6c51a38431fc2c52d09ce7ad9c811b648d",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                },
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://www.figma.com/oauth/mcp",
+                    "token_url": "https://api.figma.com/v1/oauth/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zbckGjbHAjDtfDnrX6FVMkK6__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "figma"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/figma.png",
+                "call_to_action": "Create a diagram",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_68df038e0ba48191908c8434991bbac2/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_openai_shopping",
+            "created_at": null,
+            "connector_type": "FIRST_PARTY_ECOSYSTEM",
+            "name": "Shopping research",
+            "description": "Get an in-depth guide",
+            "model_description": null,
+            "service": "shopping",
+            "base_url": null,
+            "supported_auth": [],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": "OpenAI",
+                "website": "https://openai.com",
+                "privacy_policy": "https://openai.com/policies/privacy-policy/",
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "shopping"
+            ],
+            "developer_type": "OAI",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/illo-shopping-v5.png",
+                "call_to_action": null,
+                "call_to_action_subtitle": "Spend a few minutes for better results",
+                "targeted_reply_label": "Use shopping research"
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": true,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_openai_shopping/logo?theme=light",
+            "logo_url_dark": "connectors://connector_openai_shopping/logo?theme=dark",
+            "actions": []
+        },
+        {
+            "id": "connector_691fa57b709c8191b61c48b1f78dce21",
+            "created_at": "2025-11-20T23:34:20.917018Z",
+            "connector_type": "MCP",
+            "name": "Semrush",
+            "description": "Ask about site metrics, traffic, and market data",
+            "model_description": null,
+            "service": "https://mcp.semrush.com",
+            "base_url": "https://mcp.semrush.com/v1/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://api.semrush.com/apis/v4/auth/v0/oauth2/auth",
+                    "token_url": "https://api.semrush.com/apis/v4-raw/auth/v1/oauth2/access_token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "semrush"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_691fa57b709c8191b61c48b1f78dce21/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_2128aebfecb84f64a069897515042a44",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Gmail",
+            "description": "Find and reference emails from your inbox",
+            "model_description": null,
+            "service": "google",
+            "base_url": null,
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://accounts.google.com/o/oauth2/v2/auth",
+                    "token_url": "https://oauth2.googleapis.com/token",
+                    "custom_redirect_url_params": {
+                        "access_type": "offline",
+                        "prompt": "consent"
+                    },
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://www.google.com/",
+                "privacy_policy": "https://policies.google.com/privacy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": [
+                "Gmail",
+                "emails",
+                "email",
+                "messages"
+            ],
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_2128aebfecb84f64a069897515042a44/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_686fad9b54914a35b75be6d06a0f6f31",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Linear",
+            "description": "Find and reference issues and projects",
+            "model_description": null,
+            "service": "linear",
+            "base_url": "https://api.linear.app",
+            "supported_auth": [
+                {
+                    "type": "API_KEY",
+                    "header_scheme": {
+                        "type": "CUSTOM_HEADER",
+                        "header_name": "Authorization"
+                    }
+                },
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://linear.app/oauth/authorize",
+                    "token_url": "https://api.linear.app/oauth/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "DEVELOPER_TOOLS",
+                "developer": "OpenAI",
+                "website": "https://linear.app/",
+                "privacy_policy": "https://linear.app/privacy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action does not have an id parameter"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": [
+                "linear",
+                "issues",
+                "projects",
+                "task management"
+            ],
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_686fad9b54914a35b75be6d06a0f6f31/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_692e119561848191979b13cc5c060389",
+            "created_at": "2025-12-01T22:07:18.522961Z",
+            "connector_type": "MCP",
+            "name": "Spaceship",
+            "description": "Search and check availability for domain names with pricing",
+            "model_description": null,
+            "service": "https://gpt-mcp.service.spaceship.com",
+            "base_url": "https://gpt-mcp.service.spaceship.com/mcp/",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "spaceship"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_692e119561848191979b13cc5c060389/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_690a90ec05c881918afb6a55dc9bbaa1",
+            "created_at": "2025-11-04T23:49:00.023133Z",
+            "connector_type": "MCP",
+            "name": "Vercel",
+            "description": "Search and navigate documentation, manage projects and deployments, and analyze deployment logs",
+            "model_description": null,
+            "service": "https://mcp.vercel.com",
+            "base_url": "https://mcp.vercel.com",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://vercel.com/oauth/authorize",
+                    "token_url": "https://vercel.com/api/login/oauth/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "vercel"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_690a90ec05c881918afb6a55dc9bbaa1/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_690ab09fa43c8191bca40280e4563238",
+            "created_at": "2025-11-05T02:04:15.641746Z",
+            "connector_type": "MCP",
+            "name": "Stripe",
+            "description": "Manage your business and develop your payments integration",
+            "model_description": null,
+            "service": "https://mcp.stripe.com",
+            "base_url": "https://mcp.stripe.com",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://marketplace.stripe.com/oauth/v2/authorize",
+                    "token_url": "https://marketplace.stripe.com/oauth/v2/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": true,
+                "reason_if_not_retrievable": null
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "stripe"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_690ab09fa43c8191bca40280e4563238/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_692f6343042c8191b6617e8352444692",
+            "created_at": "2025-12-02T22:08:04.625513Z",
+            "connector_type": "MCP",
+            "name": "Daloopa",
+            "description": "Financial fundamental data and KPIs with hyperlinks",
+            "model_description": null,
+            "service": "https://mcp.daloopa.com",
+            "base_url": "https://mcp.daloopa.com/server/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://mcp.daloopa.com/authorize",
+                    "token_url": "https://mcp.daloopa.com/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "daloopa"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_692f6343042c8191b6617e8352444692/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_c0f748249d6a42aea4b00fd375570ded",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Google Contacts",
+            "description": "Reference saved contact details",
+            "model_description": null,
+            "service": "google",
+            "base_url": null,
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://accounts.google.com/o/oauth2/v2/auth",
+                    "token_url": "https://oauth2.googleapis.com/token",
+                    "custom_redirect_url_params": {
+                        "access_type": "offline",
+                        "prompt": "consent"
+                    },
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://www.google.com/",
+                "privacy_policy": "https://policies.google.com/privacy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": [
+                "contacts",
+                "people",
+                "directory"
+            ],
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_c0f748249d6a42aea4b00fd375570ded/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_3f8d1a79f27c4c7ba1a897ab13bf37dc",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Codex for Slack",
+            "description": "Ask @codex to answer questions or draft PRs in Slack",
+            "model_description": null,
+            "service": "slack",
+            "base_url": "https://slack.com/api",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://slack.com/oauth/v2/authorize",
+                    "token_url": "https://slack.com/api/oauth.v2.access",
+                    "custom_redirect_url_params": {
+                        "scope": "app_mentions:read channels:history channels:read groups:history groups:read mpim:history reactions:read reactions:write chat:write users:read files:read"
+                    },
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": false,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://slack.com/",
+                "privacy_policy": "https://slack.com/privacy-policy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_3f8d1a79f27c4c7ba1a897ab13bf37dc/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_14e85e16800b4e53bc6246019a83a307",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Dropbox",
+            "description": "Find and access your stored files",
+            "model_description": null,
+            "service": "dropbox",
+            "base_url": "https://api.dropboxapi.com",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://www.dropbox.com/oauth2/authorize",
+                    "token_url": "https://api.dropboxapi.com/oauth2/token",
+                    "custom_redirect_url_params": {
+                        "token_access_type": "offline"
+                    },
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://www.dropbox.com/",
+                "privacy_policy": "https://www.dropbox.com/privacy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action does not have an id parameter"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": [
+                "Dropbox",
+                "files",
+                "storage",
+                "documents"
+            ],
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_14e85e16800b4e53bc6246019a83a307/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_37316be7febe4224b3d31465bae4dbd7",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Notion",
+            "description": "Search and reference your Notion pages",
+            "model_description": null,
+            "service": "https://mcp.notion.com",
+            "base_url": "https://mcp.notion.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://mcp.notion.com/authorize",
+                    "token_url": "https://mcp.notion.com/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "Notion",
+                "website": "https://www.notion.so/",
+                "privacy_policy": "https://www.notion.com/help/privacy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": true,
+                "reason_if_not_retrievable": null
+            },
+            "policy_info": null,
+            "keywords_for_discovery": [
+                "Notion",
+                "notes",
+                "documents",
+                "collaboration"
+            ],
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_37316be7febe4224b3d31465bae4dbd7/logo?theme=light",
+            "logo_url_dark": "connectors://connector_37316be7febe4224b3d31465bae4dbd7/logo?theme=dark",
+            "actions": []
+        },
+        {
+            "id": "connector_1e4f6a44acf14e3ca1d96672f8c945bc",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "SharePoint",
+            "description": "Search and pull from shared sites and OneDrive",
+            "model_description": null,
+            "service": "sharepoint",
+            "base_url": "https://graph.microsoft.com/v1.0",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize",
+                    "token_url": "https://login.microsoftonline.com/organizations/oauth2/v2.0/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://www.microsoft.com/",
+                "privacy_policy": "https://www.microsoft.com/privacy/privacystatement",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action does not have an id parameter"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/assets/m/d87920d0-efca-45dd-bb80-d1b0c4f0e049.png",
+                "call_to_action": "Search your SharePoint",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_1e4f6a44acf14e3ca1d96672f8c945bc/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_6912075cb358819187346bcafb601db8",
+            "created_at": "2025-11-10T15:40:12.700698Z",
+            "connector_type": "MCP",
+            "name": "Fireflies",
+            "description": "Queries and returns meeting transcripts and summaries",
+            "model_description": null,
+            "service": "https://api.fireflies.ai",
+            "base_url": "https://api.fireflies.ai/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://api.fireflies.ai/authorize",
+                    "token_url": "https://api.fireflies.ai/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "fireflies"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_6912075cb358819187346bcafb601db8/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_69127e3e55288191a8b5c2b401fb732d",
+            "created_at": "2025-11-11T00:07:26.332732Z",
+            "connector_type": "MCP",
+            "name": "Khan Academy",
+            "description": "Find K-12 math questions and create assignable exercises for your students",
+            "model_description": null,
+            "service": "https://www.khanacademy.org",
+            "base_url": "https://www.khanacademy.org/api/partner/_mcp-gateway/db8f4a30-0516-45da-9d34-e9bfae33225c/sse",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zdbKVCOctLwHRMCKcUjn0qtY__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "khan academy"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_69127e3e55288191a8b5c2b401fb732d/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_6923e677f37c8191845e4e0b658dd718",
+            "created_at": "2025-11-24T05:00:41.534888Z",
+            "connector_type": "MCP",
+            "name": "Jam",
+            "description": "Record your screen and collect automatic context for issues",
+            "model_description": null,
+            "service": "https://mcp.jam.dev",
+            "base_url": "https://mcp.jam.dev/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://api.jam.dev/oauth/authorize",
+                    "token_url": "https://api.jam.dev/oauth/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": true,
+                "reason_if_not_retrievable": null
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "jam"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_6923e677f37c8191845e4e0b658dd718/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_691e3de0d2708191a6476a7b36e38779",
+            "created_at": "2025-11-19T22:00:02.351308Z",
+            "connector_type": "MCP",
+            "name": "BioRender",
+            "description": "Quickly access science visuals for publications and meetings",
+            "model_description": null,
+            "service": "https://mcp.services.biorender.com",
+            "base_url": "https://mcp.services.biorender.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://mcp.services.biorender.com/oauth/authorize",
+                    "token_url": "https://mcp.services.biorender.com/oauth/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "biorender"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_691e3de0d2708191a6476a7b36e38779/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_691eab1e001081919e57189f8b2f03bc",
+            "created_at": "2025-11-20T05:46:07.692696Z",
+            "connector_type": "MCP",
+            "name": "Instacart",
+            "description": "Get groceries and essentials delivered from 1,800+ trusted retailers",
+            "model_description": null,
+            "service": "https://fig-mcp.instacart.com",
+            "base_url": "https://fig-mcp.instacart.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://www.instacart.com/oauth/authorize?addr=1",
+                    "token_url": "https://connect.instacart.com/v2/oauth/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zdbKVCOctLwHRMCKcUjn0qtY__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "instacart"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/grocery.png",
+                "call_to_action": "Shop for groceries",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_691eab1e001081919e57189f8b2f03bc/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_68df33b1a2d081918778431a9cfca8ba",
+            "created_at": "2025-10-03T02:23:45.636255Z",
+            "connector_type": "MCP",
+            "name": "Canva",
+            "description": "Create, edit, resize, and more to make stunning presentations, docs, and social posts.",
+            "model_description": null,
+            "service": "https://openai.canva.com",
+            "base_url": "https://openai.canva.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://openai.canva.com/authorize",
+                    "token_url": "https://openai.canva.com/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zbckGjbHAjDtfDnrX6FVMkK6__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": true,
+                "reason_if_not_retrievable": null
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "Canva"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/canva.png",
+                "call_to_action": "Make a design",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_68df33b1a2d081918778431a9cfca8ba/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_fdb98b59c8d44f678b086d20e82bd316",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Linear Codex Agent",
+            "description": "Assign Linear issues to Codex, or @mention it in comment threads",
+            "model_description": null,
+            "service": "linear",
+            "base_url": "https://api.linear.app",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://linear.app/oauth/authorize",
+                    "token_url": "https://api.linear.app/oauth/token",
+                    "custom_redirect_url_params": {
+                        "actor": "app"
+                    },
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "DEVELOPER_TOOLS",
+                "developer": "OpenAI",
+                "website": "https://linear.app/",
+                "privacy_policy": "https://linear.app/privacy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_fdb98b59c8d44f678b086d20e82bd316/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_692f7fdc4f488191bf1f48439303c695",
+            "created_at": "2025-12-03T00:10:05.261426Z",
+            "connector_type": "MCP",
+            "name": "LSEG",
+            "description": "Access LSEG's comprehensive financial data & analytics ecosystem, spanning across asset classes and domains.",
+            "model_description": null,
+            "service": "https://api.analytics.lseg.com",
+            "base_url": "https://api.analytics.lseg.com/lfa/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://login.ciam.refinitiv.com/as/authorization.oauth2",
+                    "token_url": "https://login.ciam.refinitiv.com/as/token.oauth2",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "lseg"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_692f7fdc4f488191bf1f48439303c695/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_68d579f7b0948191a7da3124a3b560f7",
+            "created_at": "2025-09-25T17:20:55.689834Z",
+            "connector_type": "MCP",
+            "name": "Zillow",
+            "description": "Shop for and discover homes to rent or buy with the leader in real estate so you can get home.",
+            "model_description": null,
+            "service": "https://mcp.zillow.com",
+            "base_url": "https://mcp.zillow.com/api/v1",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zbckGjbHAjDtfDnrX6FVMkK6__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "zillow"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/static-nux/zillow.png",
+                "call_to_action": "See listings on a map",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_68d579f7b0948191a7da3124a3b560f7/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_690a9430a270819196671dcb4c95898e",
+            "created_at": "2025-11-05T00:02:56.637512Z",
+            "connector_type": "MCP",
+            "name": "Hex",
+            "description": "Answer data questions and spin up new analyses",
+            "model_description": null,
+            "service": "https://app.hex.tech",
+            "base_url": "https://app.hex.tech/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://surprising-narrative-90.authkit.app/oauth2/authorize",
+                    "token_url": "https://surprising-narrative-90.authkit.app/oauth2/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "hex"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_690a9430a270819196671dcb4c95898e/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_69050bf6de9c8191b3968f2cc08d33d6",
+            "created_at": "2025-10-31T19:20:22.869885Z",
+            "connector_type": "MCP",
+            "name": "Tripadvisor",
+            "description": "Find your perfect hotel based on reviews and traveler advice",
+            "model_description": null,
+            "service": "https://production.ai-mcp-extensibility-prd.tamg.cloud",
+            "base_url": "https://production.ai-mcp-extensibility-prd.tamg.cloud/ogMvjY4De1G7CiHanMOAgddl/mcp",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zdbKVCOctLwHRMCKcUjn0qtY__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "tripadvisor"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_69050bf6de9c8191b3968f2cc08d33d6/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_692de805e3ec8191834719067174a384",
+            "created_at": "2025-12-01T19:10:00.856608Z",
+            "connector_type": "MCP",
+            "name": "Atlassian Rovo",
+            "description": "Summarize and search Jira and Confluence content, create and update issues or pages, and bulk process tasks",
+            "model_description": null,
+            "service": "https://mcp.atlassian.com",
+            "base_url": "https://mcp.atlassian.com/v1/sse",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://mcp.atlassian.com/v1/authorize",
+                    "token_url": "https://cf.mcp.atlassian.com/v1/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": true,
+                "reason_if_not_retrievable": null
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "atlassian"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_692de805e3ec8191834719067174a384/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_4aaab2856305417b993eca9a216aaf6e",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Outlook Email",
+            "description": "Search and reference your Outlook email",
+            "model_description": null,
+            "service": "outlook",
+            "base_url": "https://graph.microsoft.com/v1.0",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize",
+                    "token_url": "https://login.microsoftonline.com/organizations/oauth2/v2.0/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://www.microsoft.com/",
+                "privacy_policy": "https://www.microsoft.com/privacy/privacystatement",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_4aaab2856305417b993eca9a216aaf6e/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_68f865a554948191bd425efa4c0ef28b",
+            "created_at": "2025-10-22T05:03:33.330525Z",
+            "connector_type": "MCP",
+            "name": "Thumbtack",
+            "description": "Find trusted pros in your area to care for your home",
+            "model_description": null,
+            "service": "https://mcp.thumbtack.com",
+            "base_url": "https://mcp.thumbtack.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zdbKVCOctLwHRMCKcUjn0qtY__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "thumbtack"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_68f865a554948191bd425efa4c0ef28b/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_69272cb413a081919685ec3c88d1744e",
+            "created_at": "2025-11-26T16:37:10.656262Z",
+            "connector_type": "MCP",
+            "name": "Booking.com",
+            "description": "Search hotels, homes or vacation rentals in over 85,000 destinations",
+            "model_description": null,
+            "service": "https://demandapi-mcp.booking.com",
+            "base_url": "https://demandapi-mcp.booking.com/v1/mcp/2438770",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-zbckGjbHAjDtfDnrX6FVMkK6__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "booking.com"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_69272cb413a081919685ec3c88d1744e/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_2a3c0c472f6f4238b47d41acfb317307",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "HubSpot",
+            "description": "Reference contacts, deals, and CRM data",
+            "model_description": null,
+            "service": "https://mcp.hubspot.com",
+            "base_url": "https://mcp.hubspot.com/openai",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://app.hubspot.com/oauth/authorize",
+                    "token_url": "https://api.hubapi.com/oauth/v1/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": "HubSpot",
+                "website": "https://www.hubspot.com/ai-tools/openai-connector",
+                "privacy_policy": "https://legal.hubspot.com/privacy-policy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": true,
+                "reason_if_not_retrievable": null
+            },
+            "policy_info": null,
+            "keywords_for_discovery": [
+                "hubspot",
+                "sales",
+                "deals",
+                "customer management"
+            ],
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_2a3c0c472f6f4238b47d41acfb317307/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_76869538009648d5b282a4bb21c3d157",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "GitHub",
+            "description": "Access repositories, issues, and pull requests. Required for some features such as Codex",
+            "model_description": null,
+            "service": "github",
+            "base_url": null,
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://github.com/login/oauth/authorize",
+                    "token_url": "https://github.com/login/oauth/access_token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "DEVELOPER_TOOLS",
+                "developer": "OpenAI",
+                "website": "https://github.com/",
+                "privacy_policy": "https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action does not have an id parameter"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": [
+                "GitHub",
+                "repository",
+                "code"
+            ],
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_76869538009648d5b282a4bb21c3d157/logo?theme=light",
+            "logo_url_dark": "connectors://connector_76869538009648d5b282a4bb21c3d157/logo?theme=dark",
+            "actions": []
+        },
+        {
+            "id": "connector_5f3c8c41a1e54ad7a76272c89e2554fa",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Google Drive",
+            "description": "Search and reference files from your Drive",
+            "model_description": null,
+            "service": "google",
+            "base_url": null,
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://accounts.google.com/o/oauth2/v2/auth",
+                    "token_url": "https://oauth2.googleapis.com/token",
+                    "custom_redirect_url_params": {
+                        "access_type": "offline",
+                        "prompt": "consent"
+                    },
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://www.google.com/",
+                "privacy_policy": "https://policies.google.com/privacy",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action does not have an id parameter"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": [
+                "documents",
+                "files",
+                "storage"
+            ],
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": {
+                "image_url": "https://persistent.oaistatic.com/assets/m/26448daf-b584-4c83-a7ad-77285018b02f.png",
+                "call_to_action": "Search your Google Drive",
+                "call_to_action_subtitle": null,
+                "targeted_reply_label": null
+            },
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_5f3c8c41a1e54ad7a76272c89e2554fa/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_690e2dabf430819196f8b3701ec838ec",
+            "created_at": "2025-11-07T17:34:35.953976Z",
+            "connector_type": "MCP",
+            "name": "Amplitude",
+            "description": "Search, analyze, and query charts, dashboards, experiments, feature flags, and metrics",
+            "model_description": null,
+            "service": "https://mcp.amplitude.com",
+            "base_url": "https://mcp.amplitude.com/mcp",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://mcp.amplitude.com/authorize",
+                    "token_url": "https://mcp.amplitude.com/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "ampltiude"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_690e2dabf430819196f8b3701ec838ec/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_e6a7394682e24467ac68c60696f275a4",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Outlook Calendar",
+            "description": "Look up events and availability",
+            "model_description": null,
+            "service": "outlook",
+            "base_url": "https://graph.microsoft.com/v1.0",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize",
+                    "token_url": "https://login.microsoftonline.com/organizations/oauth2/v2.0/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://www.microsoft.com/",
+                "privacy_policy": "https://www.microsoft.com/privacy/privacystatement",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_e6a7394682e24467ac68c60696f275a4/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_691f721a77bc8191be115b65c85075c0",
+            "created_at": "2025-11-20T19:55:08.314119Z",
+            "connector_type": "MCP",
+            "name": "Alpaca",
+            "description": "Supports market data for stocks, options, and crypto",
+            "model_description": null,
+            "service": "https://mcp.alpaca.markets",
+            "base_url": "https://mcp.alpaca.markets/mcp",
+            "supported_auth": [
+                {
+                    "type": "NONE"
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [
+                {
+                    "type": "USER",
+                    "id": "user-V1SXuNGMSlT0wlTFK0AOK6l5__be9bd3bc-5f8a-4d12-b3e4-aa31825ba13b"
+                }
+            ],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": null,
+                "developer": null,
+                "website": null,
+                "privacy_policy": null,
+                "terms_of_service": null,
+                "is_discoverable_app": true
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "search action not found"
+            },
+            "policy_info": {
+                "safety_status": "SCANNED_OK",
+                "link_policy": null
+            },
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": [
+                "alpaca"
+            ],
+            "developer_type": "TRUSTED_PARTNER",
+            "distribution_channel": "ECOSYSTEM_DIRECTORY",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_691f721a77bc8191be115b65c85075c0/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        },
+        {
+            "id": "connector_246af0940da3457da0e751171dc1ce60",
+            "created_at": null,
+            "connector_type": "SERVICE",
+            "name": "Teams",
+            "description": "Look up chats and messages",
+            "model_description": null,
+            "service": "teams",
+            "base_url": "https://graph.microsoft.com/v1.0",
+            "supported_auth": [
+                {
+                    "type": "OAUTH",
+                    "authorization_url": "https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize",
+                    "token_url": "https://login.microsoftonline.com/organizations/oauth2/v2.0/token",
+                    "custom_redirect_url_params": null,
+                    "custom_token_request_params": null,
+                    "pkce_required": false,
+                    "pkce_methods": null,
+                    "allow_http_redirect": true,
+                    "authorization_server_base": null,
+                    "base_scopes": null,
+                    "resource": null,
+                    "scopes_supported": null
+                }
+            ],
+            "openapi_spec": null,
+            "owners": [],
+            "access_list": [],
+            "link_params_schema": null,
+            "labels": null,
+            "status": "ENABLED",
+            "enterprise_member_statuses": null,
+            "branding": {
+                "category": "PRODUCTIVITY",
+                "developer": "OpenAI",
+                "website": "https://www.microsoft.com/",
+                "privacy_policy": "https://www.microsoft.com/privacy/privacystatement",
+                "terms_of_service": null,
+                "is_discoverable_app": false
+            },
+            "conformance": {
+                "implements_retrievable": false,
+                "reason_if_not_retrievable": "fetch action does not have an id parameter"
+            },
+            "policy_info": null,
+            "keywords_for_discovery": null,
+            "keywords_for_triggering": null,
+            "developer_type": "OAI",
+            "distribution_channel": "DEFAULT_OAI_CATALOG",
+            "supports_full_actions": true,
+            "suggestion_config": null,
+            "allowed_with_approval_context_scopes": null,
+            "read_context_scopes": null,
+            "actions_changed_since_review": false,
+            "disable_in_temporary_chat": false,
+            "submission": null,
+            "app_metadata": {
+                "review": {
+                    "status": "UNSET"
+                },
+                "screenshot_urls": null,
+                "categories": null,
+                "sub_categories": null,
+                "seo_description": null,
+                "developer": null,
+                "version": null,
+                "version_id": null,
+                "version_notes": null,
+                "first_party_type": null
+            },
+            "client_metadata": null,
+            "logo_url": "connectors://connector_246af0940da3457da0e751171dc1ce60/logo?theme=light",
+            "logo_url_dark": null,
+            "actions": []
+        }
+    ],
+    "app_templates": []
+}
