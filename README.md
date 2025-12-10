@@ -7,7 +7,6 @@ Raw JSON file: https://raw.githubusercontent.com/Instafill/chatgpt-apps-connecto
 |---|---|---|---|
 |Adobe Acrobat|Edit, organize, redact, and more with PDF tools you can trust|Dec 09, 2025|https://acrobat-mcp.adobe.io/mcp/call|
 |Adobe Express|Design, personalize, and edit flyers, invitations, and more|Dec 09, 2025|https://express-mcp-service.adobe.io/mcp|
-|Instafill.ai STAGING API||Dec 09, 2025|https://mcp.instafill.ai/sse|
 |Adobe Photoshop|Edit images, add effects, and fine-tune with creative tools|Dec 04, 2025|https://photoshop-mcp-service.adobe.io/mcp|
 |LSEG|Access LSEG's comprehensive financial data & analytics ecosystem, spanning across asset classes and domains.|Dec 03, 2025|https://api.analytics.lseg.com/lfa/mcp|
 |Daloopa|Financial fundamental data and KPIs with hyperlinks|Dec 02, 2025|https://mcp.daloopa.com/server/mcp|
