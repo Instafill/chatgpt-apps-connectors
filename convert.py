@@ -15,8 +15,9 @@ SOURCE_FILES = [
 ]
 
 DATE_FMT = "%b %d, %Y"
-TABLE_HEADER = "|name|description|created_at|base_url|"
-TABLE_SEPARATOR = "|---|---|---|---|"
+TABLE_HEADER = "|#|name|description|created_at|base_url|"
+TABLE_SEPARATOR = "|---|---|---|---|---|"
+LEGACY_HEADER = "|name|description|created_at|base_url|"
 
 
 def load_connectors() -> tuple[list[dict], Path]:
@@ -62,19 +63,22 @@ def build_rows(connectors: Iterable[dict]) -> list[str]:
 
     ordered = sorted(connectors, key=sort_key)
     rows: list[str] = []
-    for item in ordered:
+    for idx, item in enumerate(ordered, start=1):
         name = sanitize(item.get("name"))
         desc = sanitize(item.get("description"))
         created = format_created(item.get("created_at"))
         base = sanitize(item.get("base_url"))
-        rows.append(f"|{name}|{desc}|{created}|{base}|")
+        rows.append(f"|{idx}|{name}|{desc}|{created}|{base}|")
     return rows
 
 
 def update_table(readme_text: str, rows: list[str]) -> str:
     lines = readme_text.splitlines()
+    header_candidates = {TABLE_HEADER, LEGACY_HEADER}
     try:
-        start = next(i for i, line in enumerate(lines) if line.strip() == TABLE_HEADER)
+        start = next(
+            i for i, line in enumerate(lines) if line.strip() in header_candidates
+        )
     except StopIteration as exc:
         raise ValueError("Table header not found in README") from exc
 
